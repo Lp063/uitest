@@ -11,7 +11,7 @@ from selenium.webdriver.common.keys import Keys
 driver = webdriver.Firefox()
 driver.get("http://192.168.2.12/lohit/")
 elemEmail = driver.find_element_by_id('email')
-elemEmail.send_keys('vinay@unboxsocial.com')
+elemEmail.send_keys('vinay@website.com')
 elemPwd = driver.find_element_by_id('pwd')
 elemPwd.send_keys('123456' + Keys.RETURN)
 
