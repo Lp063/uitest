@@ -8,7 +8,7 @@ class FacebookAnalytics(unittest.TestCase):
 		self.driver = webdriver.Firefox()
 		self.driver.get("http://192.168.2.12/lohit/")
 		elemEmail = self.driver.find_element_by_id('email')
-		elemEmail.send_keys('vinay@unboxsocial.com')
+		elemEmail.send_keys('vinay@website.com')
 		elemPwd = self.driver.find_element_by_id('pwd')
 		elemPwd.send_keys('123456' + Keys.RETURN)
 
